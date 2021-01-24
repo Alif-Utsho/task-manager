@@ -1,12 +1,47 @@
 html, body {
-    background: #000;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
     color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 4rem;
     text-align: center;
     color: lightsalmon;
+}
 
+.single-task {
+    min-height: 75px;
+    padding: 5px;
+    background: grey;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.task-control-panel {
+    width: 100%;
+    min-height: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.color-circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.inner-textarea {
+    resize: none;
+    position: absolute;
+    background: #ddd;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.35);
+    top: 0;
+    left: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    padding: 5px;
 }
